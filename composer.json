@@ -1,0 +1,14 @@
+{
+    "name": "sanja/boilerplate-ci",
+    "description": "codeigniter boilerplate",
+    "type": "project",
+    "authors": [
+        {
+            "name": "iqbaladinur",
+            "email": "iqbaladinur@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.2.4"
+    }
+}
