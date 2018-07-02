@@ -5,7 +5,7 @@
  */
 
 require_once APPPATH.'core/View_Controller.php';
-require_once 'vendor/autoload.php';
+//require_once 'vendor/autoload.php';
 
 class Home extends View_Controller {
 	public function __construct(){

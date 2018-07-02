@@ -4,4 +4,3 @@ class View_Controller extends MY_Controller{
 		parent::__construct();
 	}
 }
-?>

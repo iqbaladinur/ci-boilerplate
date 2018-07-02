@@ -59,4 +59,3 @@ class MY_Model extends CI_Model{
 		$this->db->delete(is_null($chainTables)?$this->_table:$chainTables, array($this->_primaryKey => $primaryKey)); 
 	}
 }
-?>
