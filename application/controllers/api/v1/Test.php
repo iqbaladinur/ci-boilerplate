@@ -1,11 +1,10 @@
 <?php
-require APPPATH . '/libraries/REST_Controller.php';
-//use application\Libraries\REST_Controller;
-class Test extends REST_Controller{
+require_once APPPATH . '/core/Api_Controller.php'; 
+class Test extends Api_Controller{
 	function __construct($config = 'rest'){
 		parent::__construct($config);
 	}
 	function index_get(){
-		$this->response(array('a'=>1), 200);
+		$this->response(array('a'=>1), 400);
 	}
 }
